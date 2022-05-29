@@ -57,7 +57,6 @@ var spawning = () => {
             console.log('Clearing non-existing creep memory:', name);
         }
     }
-    console.log(upgraders)
     //Current Workforce Logging
     console.log('Harvesters: ' + harvesters.length + '/' + config.total_harvesters);
     console.log('Builders: ' + builders.length + '/' + config.total_builders);
